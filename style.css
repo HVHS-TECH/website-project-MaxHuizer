@@ -20,6 +20,10 @@ grid-row: span 3;
 }
 
 .lefttexts {
-grid-row: span 2;
+grid-column: span 1;
+}
+
+.bigimage {
+grid-column: span 3;
 }
 
