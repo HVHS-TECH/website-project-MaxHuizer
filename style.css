@@ -13,3 +13,8 @@ grid-row: span 2;
 .searchbar {
 grid-column: span 3;
 }
+
+.TEXT {
+grid-column: span 5;
+grid-row: span 3;
+}
