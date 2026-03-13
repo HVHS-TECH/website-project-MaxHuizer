@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav> 
+<style>
+.container1{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  gap: 10px;
+}
 
-</nav>
-
-<main>
-    
-</main>
+.container1 div{
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
     
 </body>
 </html>
