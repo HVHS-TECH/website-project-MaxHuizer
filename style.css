@@ -3,7 +3,7 @@
 }
 
 .navbar {
-grid-column: span 3;
+grid-column: span 4;
 }
 
 .NBAlogo {
@@ -11,7 +11,7 @@ grid-row: span 2;
 }
 
 .searchbar {
-grid-column: span 3;
+grid-column: span 4;
 }
 
 .TEXT {
