@@ -29,3 +29,7 @@ grid-column: span 1;
 .righttexts{
   grid-column: span 1;
 }
+
+.body {
+  background-color:black
+}
