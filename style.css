@@ -16,7 +16,6 @@ grid-column: span 4;
 
 .TEXT {
 grid-column: span 3;
-grid-row: span 3;
 }
 
 .lefttexts {
@@ -24,6 +23,9 @@ grid-column: span 1;
 }
 
 .bigimage {
-grid-column: span 3;
+grid-column: span 2;
 }
 
+.righttexts{
+  grid-column: span 3;
+}
