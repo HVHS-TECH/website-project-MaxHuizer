@@ -1,3 +1,11 @@
-.Logo 1{
+.Logo1{
   grid-row: span 2;
+}
+
+.navbar {
+grid-column: span 3;
+}
+
+.nbalogo {
+grid-row: span 2;
 }
