@@ -6,6 +6,10 @@
 grid-column: span 3;
 }
 
-.nbalogo {
+.NBAlogo {
 grid-row: span 2;
+}
+
+.searchbar {
+grid-column: span 3;
 }
