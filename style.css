@@ -13,6 +13,10 @@ body {
 grid-column: span 4;
 }
 
+.navbarlinks {
+grid-column: span 4;
+}
+
 .NBAlogo {
 grid-row: span 2;
 }
