@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: black;
+  color: white;
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -43,6 +43,11 @@ grid-column: span 1;
 .Bam {
 grid-column: span 1;
 grid-row: span 3;
+}
+
+.Bam img {
+  width:auto;
+  height:500px;
 }
 
 .JT {
