@@ -75,3 +75,7 @@ grid-row: span 2;
   width:auto;
   height: 300px;
 }
+
+.date {
+grid-column: span 3;
+}
