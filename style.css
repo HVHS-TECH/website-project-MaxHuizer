@@ -1,7 +1,6 @@
 body {
   background-color: black;
   color: black;
-  margin: 0;
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -69,8 +68,7 @@ grid-row: span 2;
 
 .DENVSOKC img{
   width: auto;
-  height: 550px;
-  object-fit: cover;
+  height: 600px;
 }
 
 .lukadoncic img{
