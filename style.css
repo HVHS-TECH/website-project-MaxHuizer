@@ -79,3 +79,8 @@ grid-row: span 2;
 .date {
 grid-column: span 3;
 }
+
+.results img{
+  height: auto;
+  width: 50px;
+}
