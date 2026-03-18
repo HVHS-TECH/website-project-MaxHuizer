@@ -79,6 +79,11 @@ grid-column: span 1;
 grid-column: span 1;
 }
 
+.SGA img {
+  width: 400px;
+  height: auto;
+}
+
 .news {
 grid-column: span 1;
 }
