@@ -148,3 +148,12 @@ grid-row: span 2;
     font-size: 30px;
     user-select: none;
 }
+
+.trade img{
+  width:50px;
+  height:auto;
+}
+
+.trade {
+  font-size: 5px;
+}
