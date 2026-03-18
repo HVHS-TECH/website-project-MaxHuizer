@@ -98,3 +98,16 @@ grid-column: span 3;
   width: 100%;
   position: relative;
 }
+
+.date-bar {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.prev, .next {
+  font-size: 30px;
+  cursor: pointer;
+}
