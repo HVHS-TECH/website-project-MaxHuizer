@@ -62,7 +62,7 @@ grid-row: span 3;
 
 .Bam img {
   width:auto;
-  height:auto;
+  height:1000px;
   object-fit:cover;
 }
 
