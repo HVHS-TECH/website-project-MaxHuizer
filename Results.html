@@ -1,156 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Results</title>
-     <link rel="icon" type="image/png" href="images/trophy.png">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NBA Results</title>
+<link rel="icon" type="image/png" href="images/trophy.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
-<body>
 <body onload="showSlides(1)">
-<style>
-
-.slideshow-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px;
-  padding: 10px;
-  width: 100%;
-  position: relative;
-}
-
-.mySlides div {
-  padding: 10px;
-  color: white;
-  background-color: #383836;
-  border-radius: 6px;
-  font-size: 30px;
-  display: grid; /* instead of flex */
-  grid-template-columns: auto auto auto; /* 3 columns for logos and score */
-  align-items: center;
-  justify-items: center;
-  gap: 10px;
-  margin: 5px;
-}
-
-</style>
 
 <div class="navbar">
-  <div class="Logo1"><img src="images/website logo.png" alt="NBA Logo"></div>
-  <div class="navbarlinks">
-<a href="index.html">Home</a>
-<a href="News.html">News</a>
-<a href="Results.html">Results</a>
-<a href="highlights.html">Highlights
-</a></div>
-
-  <div class="NBAlogo"> <img src="images/NBA.png" alt="NBA Logo"></div>
-  <div class="searchbar">search bar</div>
+    <div class="Logo1"><img src="images/website logo.png" alt="NBA Logo"></div>
+    <div class="navbarlinks">
+        <a href="index.html">Home</a>
+        <a href="News.html">News</a>
+        <a href="Results.html">Results</a>
+        <a href="highlights.html">Highlights</a>
+    </div>
+    <div class="NBAlogo"><img src="images/NBA.png" alt="NBA Logo"></div>
+    <div class="searchbar">search bar</div>
 </div>
 
 <div class="slideshow-container">
-<div class="mySlides">
-   <div class="date-bar">
-    <span class="prev" onclick="plusSlides(-1)">❮</span>
-    <span class="date">18th March 2026</span>
-    <span class="next" onclick="plusSlides(1)">❯</span>
-  </div>
 
-  <div> <img src="images/nba logos/spurs.png" alt="San Antonio Spurs"> 
-        115 - 119 
-        <img src="images/nba logos/Los_Angeles_Clippers.png" alt="LA Clippers">
-  </div>
-  
-  <div> <img src="images/nba logos/Houston_Rockets.png" alt="Houston Rockets"> 
-        92 - 100 
-        <img src="images/nba logos/Los_Angeles_Lakers_logo.png" alt="LA Lakers">
-  </div>
+    <!-- Slide 1 -->
+    <div class="mySlides">
+        <div class="date-bar">
+            <span class="prev" onclick="plusSlides(-1)">❮</span>
+            <span class="date">18th March 2026</span>
+            <span class="next" onclick="plusSlides(1)">❯</span>
+        </div>
+        <div class="games-container">
+            <div class="game"><img src="images/nba logos/spurs.png" alt="Spurs"> 115 - 119 <img src="images/nba logos/Los_Angeles_Clippers.png" alt="Clippers"></div>
+            <div class="game"><img src="images/nba logos/Houston_Rockets.png" alt="Rockets"> 92 - 100 <img src="images/nba logos/Los_Angeles_Lakers_logo.png" alt="Lakers"></div>
+            <div class="game"><img src="images/nba logos/Chicago_Bulls.png" alt="Bulls"> 132 - 107 <img src="images/nba logos/Memphis_Grizzlies.svg.png" alt="Grizzlies"></div>
+            <div class="game"><img src="images/nba logos/New_Orleans_Pelicans_logo.svg" alt="Pelicans"> 129 - 118 <img src="images/nba logos/Dallas_Mavericks_logo.png" alt="Mavericks"></div>
+            <div class="game"><img src="images/nba logos/Brooklyn_Nets.png" alt="Nets"> 95 - 114 <img src="images/nba logos/Portland_Trail_Blazers.png" alt="Trail Blazers"></div>
+            <div class="game"><img src="images/nba logos/Boston_Celtics.png" alt="Celtics"> 120 - 112 <img src="images/nba logos/Phoenix_Suns_logo.svg" alt="Suns"></div>
+            <div class="game"><img src="images/nba logos/Washington_Wizards.png" alt="Wizards"> 117 - 125 <img src="images/nba logos/Golden_State_Warriors.png" alt="Warriors"></div>
+            <div class="game"><img src="images/nba logos/Atlanta_Hawks.png" alt="Hawks"> 124 - 112 <img src="images/nba logos/Orlando_Magic.png" alt="Magic"></div>
+        </div>
+    </div>
 
-  <div> <img src="images/nba logos/Chicago_Bulls.png" alt="Chicago Bulls"> 
-        132 - 107 
-        <img src="images/nba logos/Memphis_Grizzlies.svg.png" alt="Memphis Grizzlies">
-  </div>
-
-  <div> <img src="images/nba logos/New_Orleans_Pelicans_logo.svg" alt="New Orleans Pelicans"> 
-        129 - 118 
-        <img src="images/nba logos/Dallas_Mavericks_logo.png" alt="Dallas Mavericks">
-  </div>
-
-  <div> <img src="images/nba logos/Brooklyn_Nets.png" alt="Brooklyn Nets"> 
-        95 - 114 
-        <img src="images/nba logos/Portland_Trail_Blazers.png" alt="Portland Trail Blazers">
-  </div>
-
-  <div> <img src="images/nba logos/Boston_Celtics.png" alt="Boston Celtics"> 
-        120 - 112 
-        <img src="images/nba logos/Phoenix_Suns_logo.svg" alt="Phoenix Suns">
-  </div>
-
-  <div> <img src="images/nba logos/Washington_Wizards.png" alt="Washington Wizards"> 
-        117 - 125 
-        <img src="images/nba logos/Golden_State_Warriors.png" alt="Golden State Warriors">
-  </div>
-
-  <div> <img src="images/nba logos/Atlanta_Hawks.png" alt="Atlanta Hawks"> 
-        124 - 112
-        <img src="images/nba logos/Orlando_Magic.png" alt="Orlando Magic">
-  </div>
-  </div>
-</div>
-
-<div class="mySlides">
-   <div class="date-bar">
-    <span class="prev" onclick="plusSlides(-1)">❮</span>
-    <span class="date">18th March 2026</span>
-    <span class="next" onclick="plusSlides(1)">❯</span>
-  </div>
-
-    <div> <img src="images/nba logos/Charlotte_Hornets.png" alt="Charlotte Hornets"> 
-        136 - 106 
-        <img src="images/nba logos/Miami_Heat.png" alt="Miami Heat">
-  </div>
-  
-  <div> <img src="images/nba logos/Washington_Wizards.png" alt="Washington Wizards"> 
-        117 - 130 
-        <img src="images/nba logos/detroit pistons.png" alt="Detroit Pistons">
-  </div>
-
-  <div> <img src="images/nba logos/Orlando_Magic.png" alt="Orlando Magic"> 
-        108 - 113 
-        <img src="images/nba logos/Oklahoma_City_Thunder.svg" alt="Oklahoma City Thunder">
-  </div>
-
-  <div> <img src="images/nba logos/New_York_Knicks.png" alt="New York Knicks"> 
-        136 - 110 
-        <img src="images/nba logos/Indiana_Pacers.png" alt="Indiana Pacers">
-  </div>
-
-  <div> <img src="images/nba logos/Minnesota_Timberwolves_logo.png" alt="Minnesota Timberwolves"> 
-        116 - 104 
-        <img src="images/nba logos/Phoenix_Suns_logo.svg" alt="Phoenix Suns">
-  </div>
-
-  <div> <img src="images/nba logos/Milwaukee_Bucks.png" alt="Milwaukee Bucks"> 
-        116 - 123 
-        <img src="images/nba logos/Cleveland_Cavaliers.png" alt="Cleveland Cavaliers">
-  </div>
-
-  <div> <img src="images/nba logos/SacramentoKings.png" alt="Sacramento Kings"> 
-        104 - 132 
-        <img src="images/nba logos/spurs.png" alt="San Antonio Spurs">
-  </div>
-
-  <div> <img src="images/nba logos/Denver_Nuggets.png" alt="Denver Nuggets"> 
-        124 - 96
-        <img src="images/nba logos/Philadelphia_76ers.png" alt="Philadelphia 76ers">
-  </div>
-  </div>
-</div>
+    <!-- Slide 2 -->
+    <div class="mySlides">
+        <div class="date-bar">
+            <span class="prev" onclick="plusSlides(-1)">❮</span>
+            <span class="date">18th March 2026</span>
+            <span class="next" onclick="plusSlides(1)">❯</span>
+        </div>
+        <div class="games-container">
+            <div class="game"><img src="images/nba logos/Charlotte_Hornets.png" alt="Hornets"> 136 - 106 <img src="images/nba logos/Miami_Heat.png" alt="Heat"></div>
+            <div class="game"><img src="images/nba logos/Washington_Wizards.png" alt="Wizards"> 117 - 130 <img src="images/nba logos/detroit pistons.png" alt="Pistons"></div>
+            <div class="game"><img src="images/nba logos/Orlando_Magic.png" alt="Magic"> 108 - 113 <img src="images/nba logos/Oklahoma_City_Thunder.svg" alt="Thunder"></div>
+            <div class="game"><img src="images/nba logos/New_York_Knicks.png" alt="Knicks"> 136 - 110 <img src="images/nba logos/Indiana_Pacers.png" alt="Pacers"></div>
+            <div class="game"><img src="images/nba logos/Minnesota_Timberwolves_logo.png" alt="Timberwolves"> 116 - 104 <img src="images/nba logos/Phoenix_Suns_logo.svg" alt="Suns"></div>
+            <div class="game"><img src="images/nba logos/Milwaukee_Bucks.png" alt="Bucks"> 116 - 123 <img src="images/nba logos/Cleveland_Cavaliers.png" alt="Cavaliers"></div>
+            <div class="game"><img src="images/nba logos/SacramentoKings.png" alt="Kings"> 104 - 132 <img src="images/nba logos/spurs.png" alt="Spurs"></div>
+            <div class="game"><img src="images/nba logos/Denver_Nuggets.png" alt="Nuggets"> 124 - 96 <img src="images/nba logos/Philadelphia_76ers.png" alt="76ers"></div>
+        </div>
+    </div>
 
 </div>
 
@@ -159,20 +69,15 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+    showSlides(slideIndex += n);
 }
 
 function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
-
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  slides[slideIndex-1].style.display = "block";
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) slideIndex = 1;
+    if (n < 1) slideIndex = slides.length;
+    for (let i = 0; i < slides.length; i++) slides[i].style.display = "none";
+    slides[slideIndex-1].style.display = "block";
 }
 </script>
 

@@ -96,24 +96,48 @@ grid-row: span 2;
   height: 300px;
 }
 
-.mySlides img{
-  height: auto;
-  width: 80px;
+.slideshow-container {
+    width: 100%;
+    padding: 10px;
 }
 
 .mySlides {
-  display: grid;
+    display: none;
+}
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.games-container .game {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #383836;
+    border-radius: 6px;
+    font-size: 25px;
+}
+
+.games-container img {
+    width: 80px;
+    height: auto;
 }
 
 .date-bar {
-  grid-column: span 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
 }
 
 .prev, .next {
-  font-size: 30px;
-  cursor: pointer;
+    cursor: pointer;
+    font-size: 30px;
+    user-select: none;
 }
