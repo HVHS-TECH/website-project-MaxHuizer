@@ -70,6 +70,11 @@ grid-row: span 3;
 grid-column: span 1;
 }
 
+.JT img {
+  width:400px;
+  height: auto;
+}
+
 .SGA {
 grid-column: span 1;
 }
