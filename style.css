@@ -87,7 +87,7 @@ grid-row: span 2;
 }
 
 .mySlides {
-  display: none;
+  display: grid;
 }
 
 .slideshow-container {
