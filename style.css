@@ -89,3 +89,12 @@ grid-column: span 3;
   height: auto;
   width: 80px;
 }
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+}
