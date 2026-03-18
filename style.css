@@ -81,7 +81,7 @@ grid-row: span 2;
   height: 300px;
 }
 
-.date {
+.date-bar {
 grid-column: span 3;
 }
 
@@ -93,7 +93,6 @@ grid-column: span 3;
 .mySlides {
   display: none;
 }
-
 
 .slideshow-container {
   width: 100%;
