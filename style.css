@@ -85,7 +85,7 @@ grid-row: span 2;
 grid-column: span 3;
 }
 
-.results img{
+.mySlides img{
   height: auto;
   width: 80px;
 }
@@ -93,6 +93,7 @@ grid-column: span 3;
 .mySlides {
   display: none;
 }
+
 
 .slideshow-container {
   width: 100%;
