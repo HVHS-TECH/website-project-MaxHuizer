@@ -143,12 +143,16 @@ grid-row: span 2;
     margin-bottom: 10px;
 }
 
-.prev, .next {
+.prev {
     cursor: pointer;
     font-size: 30px;
     user-select: none;
 }
-
+.next {
+cursor: pointer;
+    font-size: 30px;
+    user-select: none;
+}
 .trade img{
   width:50px;
   height:auto;
