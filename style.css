@@ -89,30 +89,6 @@ grid-column: span 1;
 grid-row: span 3;
 }
 
-.DENVSOKC {
-grid-column: span 1;
-grid-row: span 3;
-}
-
-.DENVSOKC img {
-  width:auto;
-  height: 500px;
-  object-fit:cover;
-}
-
-.lukadoncic {
-grid-column: span 1;
-}
-
-.lukadoncic img {
-  width:400px;
-  height: auto;
-}
-
-.SASVSHOU {
-grid-column: span 1;
-}
-
 .slideshow-container {
     width: auto;
     padding: 10px;
@@ -179,4 +155,36 @@ cursor: pointer;
 
 .tradetitle{
   grid-column: span 2;
+}
+
+.DENVSOKC {
+grid-column: span 1;
+grid-row: span 3;
+}
+
+.DENVSOKC img {
+  width:auto;
+  height: 800px;
+}
+
+.lukadoncic {
+grid-column: span 1;
+}
+
+.lukadoncic img {
+  width:400px;
+  height: auto;
+}
+
+.SASVSHOU {
+grid-column: span 1;
+}
+
+.SASVSHOU img {
+  width: 400px;
+  height: auto;
+}
+
+.Highlight_title p {
+ margin: 10px;
 }

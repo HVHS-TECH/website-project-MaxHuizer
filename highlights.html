@@ -14,14 +14,24 @@
 <style>
 .videos{
   display: grid;
-  grid-template-columns: 3fr 1fr; 
-  padding: 10px;
-  gap: 10px;
+  grid-template-columns: 3fr 1fr;
+  padding:0px;
 }
 
 .videos div{
   font-size: 30px;
   text-align: left;
+  padding:0px;
+}
+
+.Highlight_title {
+  display:grid;
+  grid-template-columns: auto;
+}
+
+.Highlight_title div{
+  text-align: center;
+  font-size: 30px;
 }
 
 </style>
@@ -29,32 +39,38 @@
 <div class="navbar">
   <div class="Logo1"><img src="images/website logo.png" alt="NBA Logo"></div>
   <div class="navbarlinks">
-<a href="index.html">Home</a>
+<a href ="index.html">Home</a>
 <a href="News.html">News</a>
 <a href="Results.html">Results</a>
-<a href="highlights.html">Highlights
-</a></div>
+<a href="highlights.html">Highlights</a>
+</div>
 
   <div class="NBAlogo"> <img src="images/NBA.png" alt="NBA Logo"></div>
   <div class="searchbar">search bar</div>
 </div>
-    
 
-<div class="videos"> 
-  <div class="highlight_title"> NBA Highlights</div>
+<div class="Highlight_title">
+  <div class="hl">
+  <p>NBA Highlights </p>
+  </div>
+</div>
+
+<div class="videos">
   <div class= "DENVSOKC"> <a href="https://youtu.be/fqXv2BY6zAg" target="videoFrame"> 
   <img src="images/SGA GW.png" alt="Click to play video" style="cursor:pointer;"> </a> 
   <p>Shai Gilgeous Alexander continues to prove his MVP case as he carried an injured OKC roster to the win </p>
   </div> 
-
-<div class="lukadoncic"> <a href="https://www.youtube.com/watch?v=bGfu3V1qg-o" target="videoFrame">
+  <div class="lukadoncic"> <a href="https://www.youtube.com/watch?v=bGfu3V1qg-o" target="videoFrame">
   <img src="images/luka doncic.png" alt="Click to play video" style="cursor:pointer;"></a>
 <p>Luka Dončić sets a new career high with the Los Angeles Lakers</p>
 </div> 
 
-<div class="SASVSHOU"> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y4GwlBnsMGw?si=Kr511-gQAG4L3hWC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="SASVSHOU"> <a href="https://www.youtube.com/watch?v=y4GwlBnsMGw" target="videoFrame">
+<img src="images/luka doncic.png" alt="Click to play video" style="cursor:pointer;">
+</a>
 <p>The San Antonio Spurs host Kevin Durant and the Houston Rockets</p>
 </div> 
-</div> 
-</body> 
+  </div>
+    
+</body>
 </html>
