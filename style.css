@@ -89,30 +89,32 @@ grid-column: span 1;
 grid-row: span 3;
 }
 
-.highlight_title{
-  grid-column: span 2;
-}
-
 .DENVSOKC {
-grid-row: span 1;
+grid-column: span 1;
+grid-row: span 3;
 }
 
-.DENVSOKC img{
-  width: auto;
-  height: 550px;
-}
-
-.lukadoncic img{
+.DENVSOKC img {
   width:auto;
-  height: 300px;
+  height: 500px;
+  object-fit:cover;
 }
 
 .lukadoncic {
-  grid-row: span 1;
+grid-column: span 1;
+}
+
+.lukadoncic img {
+  width:400px;
+  height: auto;
+}
+
+.SASVSHOU {
+grid-column: span 1;
 }
 
 .slideshow-container {
-    width: 100%;
+    width: auto;
     padding: 10px;
 }
 
