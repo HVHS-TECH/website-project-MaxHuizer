@@ -89,6 +89,10 @@ grid-column: span 1;
 grid-row: span 3;
 }
 
+.highlight_title{
+  grid-column: span 3;
+}
+
 .DENVSOKC {
 grid-row: span 2;
 }
@@ -101,6 +105,10 @@ grid-row: span 2;
 .lukadoncic img{
   width:auto;
   height: 300px;
+}
+
+.lukadoncic {
+  grid-row: span;
 }
 
 .slideshow-container {
@@ -169,8 +177,4 @@ cursor: pointer;
 
 .tradetitle{
   grid-column: span 2;
-}
-
-.highlight_title{
-  
 }
