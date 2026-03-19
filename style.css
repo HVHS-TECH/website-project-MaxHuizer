@@ -167,6 +167,10 @@ cursor: pointer;
   height:auto;
 }
 
-.trade1 {
-  justify-items:center;
+.tradetitle{
+  grid-column: span 2;
+}
+
+.highlight_title{
+  
 }
