@@ -108,7 +108,7 @@ grid-row: span 2;
 }
 
 .lukadoncic {
-  grid-row: span;
+  grid-row: span 1;
 }
 
 .slideshow-container {
