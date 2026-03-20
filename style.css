@@ -159,12 +159,11 @@ cursor: pointer;
 
 .DENVSOKC {
 grid-column: span 1;
-grid-row: span 3;
 }
 
 .DENVSOKC img {
   width:auto;
-  height: 800px;
+  height: auto;
 }
 
 .lukadoncic {
@@ -174,7 +173,6 @@ grid-column: span 1;
 .lukadoncic img {
   width:400px;
   height: auto;
-  padding-top: 51px;
 }
 
 .SASVSHOU {
