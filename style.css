@@ -132,12 +132,10 @@ grid-row: span 3;
 .prev {
     cursor: pointer;
     font-size: 30px;
-    user-select: none;
 }
 .next {
 cursor: pointer;
     font-size: 30px;
-    user-select: none;
 }
 .trade img{
   width:50px;
