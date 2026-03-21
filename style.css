@@ -21,7 +21,12 @@ body {
 }
 
 .Logo1{
-  grid-row: span 2;
+grid-column: span 1;
+}
+
+.Logo1 img {
+  width:auto;
+  height:125px;
 }
 
 .navbar {
@@ -33,7 +38,7 @@ grid-column: span 4;
 }
 
 .NBAlogo {
-grid-row: span 2;
+grid-column: span 1;
 }
 
 .searchbar {
