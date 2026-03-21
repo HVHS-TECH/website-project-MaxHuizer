@@ -43,6 +43,7 @@ grid-column: span 1;
 
 .searchbar {
 grid-column: span 4;
+background-color: grey;
 }
 
 ul {
