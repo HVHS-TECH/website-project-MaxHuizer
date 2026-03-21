@@ -7,7 +7,7 @@ body {
 
 .navbar{
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
   padding: 10px;
   gap: 10px;
 }
