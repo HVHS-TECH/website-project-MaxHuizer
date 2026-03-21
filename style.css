@@ -8,7 +8,7 @@ body {
 .navbar{
   display: grid;
   background-color: #383836;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: 1fr 4fr 1fr;
   padding: 10px;
   gap: 10px;
 }
@@ -29,12 +29,8 @@ grid-column: span 1;
   height:150px;
 }
 
-.navbar {
-grid-column: span 4;
-}
-
 .navbarlinks {
-grid-column: span 4;
+grid-column: span 1;
 }
 
 .NBAlogo {
