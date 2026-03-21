@@ -46,11 +46,6 @@ height:50px;
 grid-column: span 3;
 }
 
-.searchbar img {
-  width:auto;
-  height:45px;
-}
-
 .searchbar input{
   width:1200px;
   height:45px;
