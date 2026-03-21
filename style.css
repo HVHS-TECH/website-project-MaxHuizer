@@ -47,6 +47,11 @@ grid-column: span 3;
 background-color: #292727;
 }
 
+.searchbar img {
+  width:auto;
+  height:15px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
