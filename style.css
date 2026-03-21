@@ -49,7 +49,12 @@ background-color: #292727;
 
 .searchbar img {
   width:auto;
-  height:15px;
+  height:30px;
+}
+
+.searchbar input{
+  width:1250px;
+  height:30px;
 }
 
 ul {
