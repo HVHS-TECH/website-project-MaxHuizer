@@ -44,17 +44,16 @@ height:50px;
 
 .searchbar {
 grid-column: span 3;
-background-color: #292727;
 }
 
 .searchbar img {
   width:auto;
-  height:30px;
+  height:45px;
 }
 
 .searchbar input{
-  width:1250px;
-  height:30px;
+  width:1200px;
+  height:45px;
 }
 
 ul {
