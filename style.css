@@ -122,16 +122,24 @@ grid-column: span 1;
 
 .expansion {
 grid-column: span 1;
-grid-row: span 3;
 }
 
-.LBJ {
+.KD {
   grid-column: span 1;
 }
 
-.LBJ img {
+.KD img {
   width: auto;
   height: 500px;
+}
+
+.LBJ img {
+  width: 400px;
+  height: auto;
+}
+
+.LBJ {
+grid-column: span 1;
 }
 
 .slideshow-container {
