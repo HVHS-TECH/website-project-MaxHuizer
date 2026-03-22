@@ -115,11 +115,11 @@ grid-column: span 1;
   height: auto;
 }
 
-.SGA {
+.expansion {
 grid-column: span 1;
 }
 
-.SGA img {
+.expansion img {
   width: 400px;
   height: auto;
 }
