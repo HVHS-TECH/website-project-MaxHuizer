@@ -125,6 +125,15 @@ grid-column: span 1;
 grid-row: span 3;
 }
 
+.LBJ {
+  grid-column: span 1;
+}
+
+.LBJ img {
+  width: auto;
+  height: 500px;
+}
+
 .slideshow-container {
     width: auto;
     padding: 10px;
