@@ -44,6 +44,7 @@ height:50px;
 
 .searchbar {
 grid-column: span 3;
+font-family: 'Bebas Neue', sans-serif;
 }
 
 .searchbar input {
