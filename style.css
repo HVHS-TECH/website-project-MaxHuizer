@@ -97,7 +97,7 @@ grid-column: span 1;
 
 .Bam {
 grid-column: span 1;
-grid-row: span 3;
+grid-row: span 2;
 }
 
 .Bam img {
@@ -113,10 +113,6 @@ grid-column: span 1;
 .JT img {
   width:400px;
   height: auto;
-}
-
-.expansion {
-grid-column: span 1;
 }
 
 .expansion img {
