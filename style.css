@@ -207,12 +207,12 @@ cursor: pointer;
 }
 
 .NBATrades img{
-  width:1000px;
+  width:1250px;
   height:auto;
 }
 
 .tradetitle {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 .OKCVSORL {
