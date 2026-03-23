@@ -129,12 +129,12 @@ grid-column: span 1;
 }
 
 .KD img {
-  width: auto;
-  height: 500px;
+  width: 300px;
+  height: auto;
 }
 
 .LBJ img {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
