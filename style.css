@@ -204,10 +204,11 @@ cursor: pointer;
 .trade {
   font-size: 5px;
   grid-column: span 1;
+  border-radius: 5px;
 }
 
 .NBATrades img{
-  width:1250px;
+  width:1275px;
   height:auto;
 }
 
