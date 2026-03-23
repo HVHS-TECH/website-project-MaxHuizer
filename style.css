@@ -241,4 +241,7 @@ height:auto;
 footer {
   background-color: #383836;
   padding:25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  margin-top: 100px;
 }
