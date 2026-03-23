@@ -237,3 +237,7 @@ grid-column: span 1;
 width:25px;
 height:auto;
 }
+
+.footer {
+  background-color:white;
+}
