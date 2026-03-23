@@ -116,7 +116,7 @@ grid-column: span 1;
 }
 
 .expansion img {
-  width: 400px;
+  width: 100%;
   height: auto;
 }
 
