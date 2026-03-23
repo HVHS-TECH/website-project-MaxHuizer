@@ -48,11 +48,11 @@ grid-column: span 3;
 
 .searchbar input {
   height:40px;
-  width:1250px;
+  width:50%;
 }
 
 .searchbar button {
-  height:45px;
+  height:44px;
   width:auto;
 }
 
@@ -102,7 +102,7 @@ grid-row: span 2;
 
 .Bam img {
   width:auto;
-  height: 500px;
+  height: 85%;
   object-fit:cover;
 }
 
@@ -111,12 +111,12 @@ grid-column: span 1;
 }
 
 .JT img {
-  width:400px;
+  width:340px;
   height: auto;
 }
 
 .expansion img {
-  width: 100%;
+  width: 340px;
   height: auto;
 }
 
