@@ -43,7 +43,7 @@ height:50px;
 }
 
 .searchbar {
-grid-column: span 3;
+grid-column: span 1;
 }
 
 .searchbar input {
