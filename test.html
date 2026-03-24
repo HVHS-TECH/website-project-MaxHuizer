@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max's basketball website</title>
-    <link rel="icon" type="image/png" href="images/website logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
-<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Max's basketball website</title>
+
+<link rel="icon" type="image/png" href="images/website logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 <style>
 
-.container2{
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: auto auto auto;
-  padding: 10px;
-  gap: 10px;
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
-.container2 div{
-  background-color: #383836;
-  padding: 50px;
-  font-size: 30px;
-  text-align: center;
-  height: 200px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  padding: 0 20px;
+}
+
+.Logo1 img {
+  height: 50px;
 }
 
 .navbarlinks ul {
   display: flex;
   align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbarlinks li {
-  display: flex;
-  align-items: center;
-}
-
-.dropbtn {
-    color:#f2c026;
-    cursor:pointer;
-}
-
-.dropdown {
   position: relative;
+}
+
+.navbarlinks a,
+.dropbtn {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbarlinks a:hover,
+.dropbtn:hover {
+  color: #f2c026;
 }
 
 .dropdown-content {
@@ -54,15 +61,13 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  background-color: white;
+  min-width: 150px;
 }
 
 .dropdown-content a {
-  float: none;
   color: black;
-  display: block;
-  text-align: left;
+  padding: 10px;
 }
 
 .dropdown-content a:hover {
@@ -73,47 +78,96 @@
   display: block;
 }
 
+.NBAlogo img {
+  height: 50px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar input {
+  padding: 5px;
+}
+
+.searchbar button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.container2 div {
+  background-color: #383836;
+  padding: 50px;
+  text-align: center;
+  height: 200px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
 </style>
+</head>
+
+<body>
 
 <div class="navbar">
-  <div class="Logo1"><img src="images/website logo.png" alt="NBA Logo"></div>
+
+  <div class="Logo1">
+    <img src="images/website logo.png">
+  </div>
+
   <div class="navbarlinks">
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="News.html">News</a></li>
-  <li><a href="Results.html">Results</a></li>
-  <li><a href="highlights.html">Highlights</a></li>
-  <li><a href="trades.html">Trades</a></li>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="News.html">News</a></li>
+      <li><a href="Results.html">Results</a></li>
+      <li><a href="highlights.html">Highlights</a></li>
+      <li><a href="trades.html">Trades</a></li>
 
-  <li class="dropdown">
-    <div class="dropbtn">News</div>
-    <div class="dropdown-content">
-      <a href="News.html">News</a>
-      <a href="trades.html">trades</a>
-    </div>
-  </li>
+      <li class="dropdown">
+        <div class="dropbtn">More</div>
+        <div class="dropdown-content">
+          <a href="News.html">News</a>
+          <a href="trades.html">Trades</a>
+        </div>
+      </li>
+    </ul>
+  </div>
 
-  </ul>
-</div>
-
-  <div class="NBAlogo"> <img src="images/NBA.png" alt="NBA Logo"></div>
+  <div class="NBAlogo">
+    <img src="images/NBA.png">
+  </div>
 
   <div class="searchbar">
     <input type="text" placeholder="Search">
-    <button>🔍</button></div>
-</div>
- 
-<div class="container2">
-  <div class="TEXT">NBA </div>
-  <div class="lefttexts">left text</div>
-  <div class="bigimage">big image</div>
-  <div class="righttexts">right text</div>
-</div>
-    
+    <button>🔍</button>
+  </div>
 
-  <footer> 
-    © Max Huizer 2026
-  </footer>
-  
+</div>
+
+<div class="container2">
+  <div>NBA</div>
+  <div>left text</div>
+  <div>big image</div>
+  <div>right text</div>
+</div>
+
+<footer>
+  © Max Huizer 2026
+</footer>
+
 </body>
 </html>
