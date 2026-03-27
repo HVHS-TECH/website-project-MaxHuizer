@@ -222,6 +222,11 @@ grid-column: span 1;
 grid-column: span 1;
 }
 
+.videos img {
+  height:auto;
+  width:90%;
+}
+
 .Highlight_title p {
  margin: 10px;
 }
