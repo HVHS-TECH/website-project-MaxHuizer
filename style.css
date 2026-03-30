@@ -21,6 +21,24 @@ body {
   align-items: center;
 }
 
+
+
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+.container2 div{
+  background-color: #383836;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  height: 200px;
+}
+
 .Logo1{
 grid-column: span 1;
 }
@@ -229,6 +247,32 @@ grid-column: span 1;
 
 .Highlight_title p {
  margin: 10px;
+}
+
+.videos{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.videos div{
+  font-size: 30px;
+  text-align: left;
+  padding:10px;
+}
+
+.videos video{
+  width:410px;
+  height:auto;
+}
+
+.Highlight_title {
+  display:grid;
+  grid-template-columns: auto;
+}
+
+.Highlight_title div{
+  text-align: center;
+  font-size: 30px;
 }
 
 .tradelogo img{
