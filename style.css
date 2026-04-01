@@ -373,9 +373,6 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
-.mySlidesfade {
-
-}
 
 @keyframes fade {
   from {opacity: .4} 
