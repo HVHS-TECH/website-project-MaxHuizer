@@ -328,10 +328,9 @@ img {vertical-align: middle;}
 
 
 .home-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   margin-top:50px;
-  margin-bottom: auto;
   margin: 50px auto;
 }
 
