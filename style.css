@@ -332,6 +332,7 @@ img {vertical-align: middle;}
   position: relative;
   margin-top:50px;
   margin-bottom: auto;
+  margin: 50px auto;
 }
 
 .home-container .prev {
