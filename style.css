@@ -102,7 +102,6 @@ grid-column: span 1;
 
 .example {
   grid-column: span 3;
-  padding:0px;
 }
 
 .Bam {
