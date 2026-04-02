@@ -30,11 +30,8 @@ body {
 }
 
 .container2 div{
-  background-color: #383836;
-  padding: 50px;
   font-size: 30px;
   text-align: center;
-  height: 200px;
 }
 
 .Logo1{
@@ -101,6 +98,11 @@ grid-column: span 1;
 
 .righttexts{
   grid-column: span 1;
+}
+
+.example {
+  grid-column: span 3;
+  padding:0px;
 }
 
 .Bam {
