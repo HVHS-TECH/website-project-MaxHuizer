@@ -88,10 +88,11 @@ grid-column: span 3;
 
 .lefttexts {
 grid-column: span 1;
+align-items: le
 }
 
 .lefttexts img {
-width:100%;
+width:auto;
 height:100%;
 }
 
