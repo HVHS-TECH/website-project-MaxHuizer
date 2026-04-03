@@ -113,24 +113,19 @@ function showSlides(n) {
 </script>
 
 <script>
-let performanceSlidesIndex = 0;
-showperformanceSlides();
+let performanceIndex = 0;
+showPerformanceSlides();
 
-function showperformanceSlides() {
+function showPerformanceSlides() {
   let i;
-  let slides = document.getElementsByClassName("performanceSlides");
-  let dots = document.getElementsByClassName("dot");
+  let slides = document.getElementsByClassName("performanceSlides"); // your right-side slides
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showperformanceSlides, 3500);
+  perfIndex++;
+  if (performanceIndex > slides.length) {perfIndex = 1}    
+  slides[performanceIndex - 1].style.display = "block";  
+  setTimeout(showPerformanceSlides, 3500); // change slide every 3.5 seconds
 }
 </script>
 
