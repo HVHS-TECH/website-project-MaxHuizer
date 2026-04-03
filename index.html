@@ -89,6 +89,24 @@
     <div class="game"><img src="images/nba logos/Atlanta_Hawks.png" alt="Boston Celtics"> 3:00pm <img src="images/nba logos/Minnesota_Timberwolves_logo.png" alt="MInnesota Timberwolves"></div>
     <div class="game"><img src="images/nba logos/Los_Angeles_Lakers_logo.png" alt="Phoenix Suns"> 4:30pm<img src="images/nba logos/Cleveland_Cavaliers.png" alt="Toronto Raptors"></div>
 </div>
+
+<div class="highlightscontainer">
+  <div class="htitle">Must watch</div>
+<div class="morehighlights"> <a href="highlights.html">See more ❯</a></div>
+
+<div class="highlight">
+  <img src="images/hali.png" alt="Tyrese Haliburton insane Playoffs moments">
+</div>
+
+<div class="highlight">
+  <img src="images/steph3s.png" alt="Stephen Curry best threes">
+</div>
+
+<div class="highlight">
+  <img src="images/dunk contest.png" alt="2026 NBA Dunk Contest">
+</div>
+
+</div>
     
 <script>
 let slideIndex = 1;
@@ -111,6 +129,29 @@ function showSlides(n) {
     slides[i].style.display = "none";  
   }
   slides[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("highlight");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+
+  slides[slideIndex - 1].style.display = "block";  
+
+  setTimeout(showSlides, 3000);
 }
 </script>
 
