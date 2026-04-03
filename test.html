@@ -92,13 +92,12 @@
   </footer>
   
 </body>
-</html>
 
 <script>
-let highlightIndex = 0;
-showHighlights();
+let slideIndex = 0;
+showSlides();
 
-function showHighlights() {
+function showSlides() {
   let i;
   let slides = document.getElementsByClassName("highlight");
 
@@ -106,11 +105,15 @@ function showHighlights() {
     slides[i].style.display = "none";  
   }
 
-  highlightIndex++;
-  if (highlightIndex > slides.length) {highlightIndex = 1}    
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
 
-  slides[highlightIndex - 1].style.display = "block";  
+  slides[slideIndex - 1].style.display = "block";  
 
-  setTimeout(showHighlights, 3750);
+  setTimeout(showSlides, 3000);
 }
 </script>
+
+</html>
