@@ -118,14 +118,14 @@ showPerformanceSlides();
 
 function showPerformanceSlides() {
   let i;
-  let slides = document.getElementsByClassName("performanceSlides"); // your right-side slides
+  let slides = document.getElementsByClassName("performanceSlides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  perfIndex++;
-  if (performanceIndex > slides.length) {perfIndex = 1}    
+  performanceIndex++;
+  if (performanceIndex > slides.length) {performanceIndex = 1}    
   slides[performanceIndex - 1].style.display = "block";  
-  setTimeout(showPerformanceSlides, 3500); // change slide every 3.5 seconds
+  setTimeout(showPerformanceSlides, 3500);
 }
 </script>
 
