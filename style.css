@@ -83,37 +83,57 @@ ul li a:hover {
 }
 
 .lefttexts {
-grid-column: span 1;
-}
-
-.bigimage {
-grid-column: span 1;
-}
-
-.righttexts{
   grid-column: span 1;
+  padding: 0;
+  margin: 0;
+  text-align: right;
 }
 
 .lefttexts img {
-width:100%;
-height:auto;
-}
-
-.righttexts img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
 
 .lefttexts p {
-  margin: 5px;
+  margin: 5px 0;
+}
+
+/* Big Image (Highlights) */
+.bigimage {
+  grid-column: span 1;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.bigimage img {
+  width: 100%;
+  height: auto;
 }
 
 .bigimage p {
-  margin: 5px;
+  margin: 5px 0;
+}
+
+.righttexts {
+  grid-column: span 1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.righttexts img {
+  width: 100%;
+  height: auto;
 }
 
 .righttexts p {
-  margin:5px;
+  margin: 5px 0;
+}
+
+.performance-container {
+  margin: 0;
+  padding: 10px;
 }
 
 
