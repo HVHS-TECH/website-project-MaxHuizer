@@ -82,14 +82,16 @@ ul li a:hover {
   background-color: #111111;
 }
 
-.bigimage {
-grid-column: span 3;
-}
-
 .lefttexts {
 grid-column: span 1;
-text-align:right;
-padding:0;
+}
+
+.bigimage {
+grid-column: span 1;
+}
+
+.righttexts{
+  grid-column: span 1;
 }
 
 .lefttexts img {
@@ -114,13 +116,6 @@ height:auto;
   margin:5px;
 }
 
-.bigimage {
-grid-column: span 1;
-}
-
-.righttexts{
-  grid-column: span 1;
-}
 
 .example {
   grid-column: span 3;
