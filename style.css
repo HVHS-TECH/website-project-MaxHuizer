@@ -96,6 +96,11 @@ width:100%;
 height:auto;
 }
 
+.righttexts img {
+  width:100%;
+  height:auto;
+}
+
 .bigimage {
 grid-column: span 1;
 }
