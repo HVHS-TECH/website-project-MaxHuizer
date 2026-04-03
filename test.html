@@ -15,7 +15,7 @@
 <style>
 .hlcontainer {
   display:grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
 .hlcontainer div {
@@ -23,6 +23,11 @@
   margin:5px;
 }
 
+
+.hlcontainer img{
+  height:auto;
+  width:100%
+}
 .highlightsfade {
  grid-column: span 1;
 }
@@ -35,6 +40,13 @@
  grid-column: span 1;
 }
 
+.htitle {
+  grid-column: span 1;
+}
+
+.morehighlights {
+  grid-columns:span 2;
+}
 </style>
 
 
@@ -56,6 +68,9 @@
 </div>
 
 <div class="hlcontainer">
+  <div class="htitle">Must watch</div>
+<div class="morehighlights"> <a href="highlights.html">See more ❯</a></div>
+
 <div class="highlightsfade">
   <img src="images/hali.png" alt="Tyrese Haliburton insane Playoffs moments">
 </div>
