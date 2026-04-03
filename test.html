@@ -13,45 +13,6 @@
 <body>
 
 <style>
-.trending {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  text-align:center;
-}
-
-.trending div{
-  font-size: 30px;
-  margin:15px;
-  margin-top:0px;
-}
-
-.trendingtitle {
-grid-column:span 3;
-text-align:left;
-margin-bottom:0px;
-}
-
-.morenews {
-  grid-column:span 2;
-  text-align:right;
-  cursor:pointer;
-  margin-bottom:0px;
-}
-
-.morenews a {
-  color:white;
-  text-decoration:none;
-}
-
-.morenews a:hover{
-color:#f2c026;
-}
-
-.newsthumbnail img{
-    width:100%;
-    height:auto;
-    border-radius:5px;
-}
 
 </style>
 
@@ -100,27 +61,6 @@ color:#f2c026;
   </div>
 
 </div>
-
-<div class="trending">
-    <div class="trendingtitle">Trending 🔥</div>
-    <div class="morenews"> <a href="News.html">More News ❯</a></div>
-    
-    <div class="newsthumbnail">
-        <img src="images/Kawhi.png" alt="Kawhi Leonard">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Steph.png" alt="Kawhi Leonard">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Jokic.png" alt="Kawhi Leonard">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Kawhi.png" alt="Kawhi Leonard">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Steph.png" alt="Kawhi Leonard">
-    </div>
-</div>
   
     
 <script>
@@ -153,3 +93,20 @@ function showSlides(n) {
   
 </body>
 </html>
+
+<script>
+let performanceIndex = 0;
+showPerformanceSlides();
+
+function showPerformanceSlides() {
+  let i;
+  let slides = document.getElementsByClassName("performanceSlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  performanceIndex++;
+  if (performanceIndex > slides.length) {performanceIndex = 1}    
+  slides[performanceIndex - 1].style.display = "block";  
+  setTimeout(showPerformanceSlides, 3750);
+}
+</script>

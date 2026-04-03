@@ -59,31 +59,26 @@
 
 </div>
 
-<div class="container2">
-  <div class="lefttexts"><img src="images/hello.png" alt="playoffs"><p>View Scores</p></div>
-  <div class="bigimage"> <img src="images/hali.png" alt="hali"><p>Check out Highlights</p></div>
-
-  <div class="righttexts">
-    <div class="performance-container">
-
-<div class="performanceSlides fade">
-  <img src="images/Jokic.png" style="height:100%">
+<div class="trending">
+    <div class="trendingtitle">Trending 🔥</div>
+    <div class="morenews"> <a href="News.html">More News ❯</a></div>
+    
+    <div class="newsthumbnail">
+        <img src="images/Kawhi.png" alt="Kawhi Leonard">
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/Steph.png" alt="Kawhi Leonard">
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/Jokic.png" alt="Kawhi Leonard">
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/Kawhi.png" alt="Kawhi Leonard">
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/Steph.png" alt="Kawhi Leonard">
+    </div>
 </div>
-
-<div class="performanceSlides fade">
-  <img src="images/Kawhi.png" style="height:100%">
-</div>
-
-<div class="performanceSlides fade">
-  <img src="images/Steph.png" alt="Stephen Curry scores 48 points" style="height:100%">
-</div>
-<p>See More News</p>
-</div>
-<br>
-
-  </div>
-
-  </div>
     
 <script>
 let slideIndex = 1;
@@ -106,23 +101,6 @@ function showSlides(n) {
     slides[i].style.display = "none";  
   }
   slides[slideIndex-1].style.display = "block";  
-}
-</script>
-
-<script>
-let performanceIndex = 0;
-showPerformanceSlides();
-
-function showPerformanceSlides() {
-  let i;
-  let slides = document.getElementsByClassName("performanceSlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  performanceIndex++;
-  if (performanceIndex > slides.length) {performanceIndex = 1}    
-  slides[performanceIndex - 1].style.display = "block";  
-  setTimeout(showPerformanceSlides, 3750);
 }
 </script>
 
