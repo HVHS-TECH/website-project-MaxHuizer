@@ -445,3 +445,29 @@ margin-bottom:0px;
  a:hover{
 color:#f2c026;
 }
+
+.upcoming {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align:center;
+}
+
+.upcoming div{
+  font-size: 30px;
+  margin:15px;
+}
+
+.upcomingtitle {
+  grid-column:span 1;
+  text-align:left;
+}
+
+.ygames {
+  grid-column:span 2;
+  text-align:right;
+}
+
+.game img {
+    width: 80px;
+    height: auto;
+}
