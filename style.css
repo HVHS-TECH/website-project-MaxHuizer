@@ -478,7 +478,7 @@ color:#f2c026;
 .highlightscontainer {
   display:grid;
   grid-template-columns: auto auto;
-  margin:100px;
+  margin:50px;
 }
 
 .highliightscontainer div {

@@ -133,10 +133,10 @@ function showSlides(n) {
 </script>
 
 <script>
-let slideIndex = 0;
-showSlides();
+let highlightIndex = 0;
+showHighlightSlides();
 
-function showSlides() {
+function showHighlightSlides() {
   let i;
   let slides = document.getElementsByClassName("highlight");
 
@@ -144,14 +144,14 @@ function showSlides() {
     slides[i].style.display = "none";  
   }
 
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
+  highlightIndex++;
+  if (highlightIndex > slides.length) {
+    highlightIndex = 1;
   }
 
-  slides[slideIndex - 1].style.display = "block";  
+  slides[highlightIndex - 1].style.display = "block";  
 
-  setTimeout(showSlides, 3000);
+  setTimeout(showHighlightSlides, 3000);
 }
 </script>
 
