@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max's basketball website</title>
+    <link rel="icon" type="image/png" href="images/website logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="navbar">
+  <div class="Logo1"><img src="images/website logo.png" alt="NBA Logo"></div>
+  <div class="navbarlinks">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="News.html">News</a></li>
+  <li><a href="Results.html">Results</a></li>
+  <li><a href="highlights.html">Highlights</a></li>
+  <li><a href="trades.html">Trades</a></li>
+  </ul>
+</div>
+
+<div class="searchbar">
+    <input type="text" placeholder="Search">
+    <button>🔍</button></div>
+</div>
+
+<div class="home-container">
+
+<div class="mySlides fade">
+  <img src="images/HOF.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/expansion32.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/mvp.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Rookie.png" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+  </div>
+
+</div>
+
+<div class="container2">
+  <div class="lefttexts"><img src="images/hello.png" alt="playoffs"><p>View Scores</p></div>
+  <div class="bigimage"> <img src="images/hali.png" alt="hali"><p>Check out Highlights</p></div>
+
+  <div class="righttexts">
+    <div class="performance-container">
+
+<div class="performanceSlides fade">
+  <img src="images/Jokic.png" style="height:100%">
+</div>
+
+<div class="performanceSlides fade">
+  <img src="images/Kawhi.png" style="height:100%">
+</div>
+
+<div class="performanceSlides fade">
+  <img src="images/Steph.png" alt="Stephen Curry scores 48 points" style="height:100%">
+</div>
+<p>See More News</p>
+</div>
+<br>
+
+  </div>
+
+  </div>
+    
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script>
+let performanceIndex = 0;
+showPerformanceSlides();
+
+function showPerformanceSlides() {
+  let i;
+  let slides = document.getElementsByClassName("performanceSlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  performanceIndex++;
+  if (performanceIndex > slides.length) {performanceIndex = 1}    
+  slides[performanceIndex - 1].style.display = "block";  
+  setTimeout(showPerformanceSlides, 3750);
+}
+</script>
+
+  <footer> 
+    © Max Huizer 2026
+  </footer>
+  
+</body>
+</html>
