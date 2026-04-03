@@ -431,17 +431,17 @@ margin-bottom:0px;
   margin-bottom:0px;
 }
 
-.morenews a {
-  color:white;
-  text-decoration:none;
-}
-
-.morenews a:hover{
-color:#f2c026;
-}
-
 .newsthumbnail img{
     width:100%;
     height:auto;
     border-radius:5px;
+}
+
+ a {
+  color:white;
+  text-decoration:none;
+}
+
+ a:hover{
+color:#f2c026;
 }
