@@ -98,7 +98,6 @@ ul li a:hover {
   margin: 5px 0;
 }
 
-/* Big Image (Highlights) */
 .bigimage {
   grid-column: span 1;
   padding: 10px;
@@ -124,7 +123,7 @@ ul li a:hover {
 
 .righttexts img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .righttexts p {
