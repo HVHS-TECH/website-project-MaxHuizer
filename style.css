@@ -89,6 +89,7 @@ grid-column: span 3;
 .lefttexts {
 grid-column: span 1;
 text-align:right;
+padding:0;
 }
 
 .lefttexts img {
@@ -102,11 +103,15 @@ height:auto;
 }
 
 .lefttexts p {
-  margin: 5px 0;
+  margin: 5px;
 }
 
 .bigimage p {
-  margin: 5px 0;
+  margin: 5px;
+}
+
+.righttexts p {
+  margin:5px;
 }
 
 .bigimage {
