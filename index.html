@@ -62,21 +62,21 @@
 <div class="container2">
   <div class="lefttexts"><img src="images/NBA standings.png" alt="playoffs"><p>Final Scores</p></div>
   <div class="bigimage"> <img src="images/hali.png" alt="hali"><p>View Highlights</p></div>
-  
+
   <div class="righttexts">
     <div class="performance-container">
 
-<div class="mySlides fade">
+<div class="performanceSlides fade">
   <img src="images/NBA standings.png" style="height:100%">
   <div class="text">Caption Text</div>
 </div>
 
-<div class="mySlides fade">
+<div class="performanceSlides fade">
   <img src="images/NBA standings.png" style="height:100%">
   <div class="text">Caption Two</div>
 </div>
 
-<div class="mySlides fade">
+<div class="performanceSlides fade">
   <img src="images/NBA standings.png" style="height:100%">
   <div class="text">Caption Three</div>
 </div>
@@ -123,12 +123,12 @@ function showSlides(n) {
 </script>
 
 <script>
-let slideIndex = 0;
-showSlides();
+let performanceSlidesIndex = 0;
+showperformanceSlides();
 
-function showSlides() {
+function showperformanceSlides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("performanceSlides");
   let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
@@ -140,7 +140,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000);
+  setTimeout(showperformanceSlides, 4000);
 }
 </script>
 
