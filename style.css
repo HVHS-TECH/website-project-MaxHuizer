@@ -82,7 +82,7 @@ ul li a:hover {
   background-color: #111111;
 }
 
-.TEXT {
+.bigimage {
 grid-column: span 3;
 }
 
@@ -102,6 +102,10 @@ height:auto;
 }
 
 .lefttexts p {
+  margin: 5px 0;
+}
+
+.bigimage p {
   margin: 5px 0;
 }
 
