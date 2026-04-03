@@ -68,7 +68,7 @@
 <div class="morehighlights"> <a href="highlights.html">See more ❯</a></div>
 
 <div class="h">
-  <img src="images/hali.png" alt="Tyrese Haliburton insane Playoffs moments">
+  <img src="images/Jokic.png" alt="Tyrese Haliburton insane Playoffs moments">
 </div>
 
 <div class="h">
@@ -76,7 +76,7 @@
 </div>
 
 <div class="h">
-  <img src="images/hali.png" alt="Tyrese Haliburton insane Playoffs moments">
+  <img src="images/HOF.png" alt="Tyrese Haliburton insane Playoffs moments">
 </div>
 
 </div>
@@ -89,18 +89,22 @@
 </html>
 
 <script>
-let performanceIndex = 0;
-showPerformanceSlides();
+let highlightIndex = 0;
+showHighlights();
 
-function showPerformanceSlides() {
+function showHighlights() {
   let i;
-  let slides = document.getElementsByClassName("performanceSlides");
+  let slides = document.getElementsByClassName("h");
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  performanceIndex++;
-  if (performanceIndex > slides.length) {performanceIndex = 1}    
-  slides[performanceIndex - 1].style.display = "block";  
-  setTimeout(showPerformanceSlides, 3750);
+
+  highlightIndex++;
+  if (highlightIndex > slides.length) {highlightIndex = 1}    
+
+  slides[highlightIndex - 1].style.display = "block";  
+
+  setTimeout(showHighlights, 3750);
 }
 </script>
