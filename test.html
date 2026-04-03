@@ -13,20 +13,26 @@
 <body>
 
 <style>
-.trending{
+.testcontainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   text-align:center;
 }
 
-.trending div{
+.testcontainer div{
   font-size: 30px;
-  margin:10px;
+  margin:15px;
 }
 
 .trendingtitle {
-grid-column:span 5;
+grid-column:span 4;
 text-align:left;
+}
+
+.testbutton {
+  grid-column:span 1;
+  text-align:right;
+  cursor:pointer;
 }
 
 .newsthumbnail img{
@@ -82,8 +88,9 @@ text-align:left;
 
 </div>
 
-<div class="trending">
+<div class="testcontainer">
     <div class="trendingtitle">Trending 🔥</div>
+    <div class="testbutton"> More News ❯</div>
     
     <div class="newsthumbnail">
         <img src="images/Kawhi.png" alt="Kawhi Leonard">
