@@ -101,6 +101,10 @@ height:auto;
   height:auto;
 }
 
+.lefttexts p {
+  margin: 5px 0;
+}
+
 .bigimage {
 grid-column: span 1;
 }
