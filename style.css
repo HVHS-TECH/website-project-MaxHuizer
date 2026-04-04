@@ -163,6 +163,10 @@ grid-column: span 1;
   height: auto;
 }
 
+.KDtext p{
+font-size: 30px;
+}
+
 .LBJ img {
   width: 300px;
   height: auto;
@@ -176,7 +180,20 @@ grid-column: span 1;
 font-size: 30px;
 }
 
-.KDtext p{
+.yang img {
+  width: 300px;
+  height: auto;
+}
+
+.yang {
+grid-column: span 1;
+}
+
+.yangtext {
+  grid-column:span 1;
+}
+
+.yangtext p{
 font-size: 30px;
 }
 
