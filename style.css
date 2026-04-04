@@ -45,18 +45,8 @@ grid-column: span 1;
 grid-column: span 1;
 }
 
-.searchbar {
-grid-column: span 1;
-}
-
-.searchbar input {
-  height:40px;
-  width:75%;
-}
-
-.searchbar button {
-  height:44px;
-  width:auto;
+.NBALOGO {
+  align-items:right;
 }
 
 ul {
