@@ -6,108 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max's basketball website</title>
     <link rel="icon" type="image/png" href="images/website logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-
 <div class="navbar">
-  <div class="Logo1"><img src="images/website logo.png" alt="NBA Logo"></div>
+  <div class="Logo1"><img src="images/website logo.png"></div>
+
   <div class="navbarlinks">
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="News.html">News</a></li>
-  <li><a href="Results.html">Results</a></li>
-  <li><a href="highlights.html">Highlights</a></li>
-  <li><a href="trades.html">Trades</a></li>
-  <li><a href="test.html">test</a></li>
-  </ul>
-</div>
-
-<div class="searchbar">
-    <input type="text" placeholder="Search">
-    <button>🔍</button></div>
-</div>
-
-<div class="home-container">
-
-<div class="mySlides fade">
-  <img src="images/HOF.png" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="images/expansion32.png" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="images/mvp.png" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="images/Rookie.png" style="width:100%">
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="News.html">News</a></li>
+      <li><a href="Results.html">Results</a></li>
+      <li><a href="highlights.html">Highlights</a></li>
+      <li><a href="trades.html">Trades</a></li>
+      <li><a href="test.html">test</a></li>
+    </ul>
   </div>
 
+  <!-- SEARCH BAR -->
+  <div class="searchbar">
+    <input type="text" id="searchInput" placeholder="Search teams...">
+    <button>🔍</button>
+  </div>
 </div>
 
+<!-- SLIDES -->
+<div class="home-container">
+  <div class="mySlides fade"><img src="images/HOF.png" style="width:100%"></div>
+  <div class="mySlides fade"><img src="images/expansion32.png" style="width:100%"></div>
+  <div class="mySlides fade"><img src="images/mvp.png" style="width:100%"></div>
+  <div class="mySlides fade"><img src="images/Rookie.png" style="width:100%"></div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<!-- TRENDING -->
 <div class="trending">
-    <div class="trendingtitle">Trending 🔥</div>
-    <div class="morenews"> <a href="News.html">More News ❯</a></div>
-    
-    <div class="newsthumbnail">
-        <img src="images/Kon.png" alt="Kon Knueppel">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Luka injury.png" alt="Luka Doncic injury">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Jokic.png" alt="Nikola Jokic">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Kawhi.png" alt="Kawhi Leonard">
-    </div>
-    <div class="newsthumbnail">
-        <img src="images/Steph.png" alt="Stephen Curry">
-    </div>
+  <div class="trendingtitle">Trending 🔥</div>
+  <div class="morenews"><a href="News.html">More News ❯</a></div>
+
+  <div class="newsthumbnail"><img src="images/Kon.png"></div>
+  <div class="newsthumbnail"><img src="images/Luka injury.png"></div>
+  <div class="newsthumbnail"><img src="images/Jokic.png"></div>
+  <div class="newsthumbnail"><img src="images/Kawhi.png"></div>
+  <div class="newsthumbnail"><img src="images/Steph.png"></div>
 </div>
 
+<!-- UPCOMING GAMES -->
 <div class="upcoming">
-<div class="upcomingtitle">Upcoming 🗓️</div>
-<div class="ygames"> <a href="Results.html">Yesterday's Games ❯</a></div>
-<div class="game"><img src="images/nba logos/Milwaukee_Bucks.png" alt="Denver Nuggets"> 12:00pm<img src="images/nba logos/Boston_Celtics.png" alt="Celtics"></div>
-    <div class="game"><img src="images/nba logos/Golden_State_Warriors.png" alt="Sacramento Kings"> 12:30pm <img src="images/nba logos/Orlando_Magic.png" alt="Brooklyn Nets"></div>
-    <div class="game"><img src="images/nba logos/Denver_Nuggets.png" alt="New York Knicks"> 3:00pm <img src="images/nba logos/Miami_Heat.png" alt="Washington Wizards"></div>
-    <div class="game"><img src="images/nba logos/Atlanta_Hawks.png" alt="Boston Celtics"> 3:00pm <img src="images/nba logos/Minnesota_Timberwolves_logo.png" alt="MInnesota Timberwolves"></div>
-    <div class="game"><img src="images/nba logos/Los_Angeles_Lakers_logo.png" alt="Phoenix Suns"> 4:30pm<img src="images/nba logos/Cleveland_Cavaliers.png" alt="Toronto Raptors"></div>
+  <div class="upcomingtitle">Upcoming 🗓️</div>
+  <div class="ygames"><a href="Results.html">Yesterday's Games ❯</a></div>
+
+  <div class="game" data-team="bucks celtics">
+    <img src="images/nba logos/Milwaukee_Bucks.png"> 12:00pm
+    <img src="images/nba logos/Boston_Celtics.png">
+  </div>
+
+  <div class="game" data-team="warriors magic">
+    <img src="images/nba logos/Golden_State_Warriors.png"> 12:30pm
+    <img src="images/nba logos/Orlando_Magic.png">
+  </div>
+
+  <div class="game" data-team="nuggets heat">
+    <img src="images/nba logos/Denver_Nuggets.png"> 3:00pm
+    <img src="images/nba logos/Miami_Heat.png">
+  </div>
+
+  <div class="game" data-team="hawks timberwolves">
+    <img src="images/nba logos/Atlanta_Hawks.png"> 3:00pm
+    <img src="images/nba logos/Minnesota_Timberwolves_logo.png">
+  </div>
+
+  <div class="game" data-team="lakers cavaliers">
+    <img src="images/nba logos/Los_Angeles_Lakers_logo.png"> 4:30pm
+    <img src="images/nba logos/Cleveland_Cavaliers.png">
+  </div>
 </div>
 
+<!-- HIGHLIGHTS -->
 <div class="highlightscontainer">
   <div class="htitle">Must watch</div>
-<div class="morehighlights"> <a href="highlights.html">See more ❯</a></div>
+  <div class="morehighlights"><a href="highlights.html">See more ❯</a></div>
 
-<div class="highlight">
-  <img src="images/hali.png" alt="Tyrese Haliburton insane Playoffs moments">
+  <div class="highlight"><img src="images/hali.png"></div>
+  <div class="highlight"><img src="images/steph3s.png"></div>
+  <div class="highlight"><img src="images/dunk contest.png"></div>
 </div>
 
-<div class="highlight">
-  <img src="images/steph3s.png" alt="Stephen Curry best threes">
-</div>
-
-<div class="highlight">
-  <img src="images/dunk contest.png" alt="2026 NBA Dunk Contest">
-</div>
-
-</div>
-    
+<!-- SLIDER SCRIPT -->
 <script>
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -116,32 +105,30 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
 function showSlides(n) {
-  let i;
   let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
+
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";  
+
+  slides[slideIndex - 1].style.display = "block";
 }
 </script>
 
+<!-- HIGHLIGHT AUTO SLIDE -->
 <script>
 let highlightIndex = 0;
 showHighlightSlides();
 
 function showHighlightSlides() {
-  let i;
   let slides = document.getElementsByClassName("highlight");
 
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
 
   highlightIndex++;
@@ -149,15 +136,33 @@ function showHighlightSlides() {
     highlightIndex = 1;
   }
 
-  slides[highlightIndex - 1].style.display = "block";  
+  slides[highlightIndex - 1].style.display = "block";
 
   setTimeout(showHighlightSlides, 3000);
 }
 </script>
 
-  <footer> 
-    © Max Huizer 2026
-  </footer>
-  
+<!-- 🔍 SEARCH SCRIPT -->
+<script>
+const searchInput = document.getElementById("searchInput");
+const games = document.querySelectorAll(".game");
+
+searchInput.addEventListener("keyup", function () {
+  let value = this.value.toLowerCase();
+
+  games.forEach(game => {
+    let teams = game.getAttribute("data-team");
+
+    if (teams.includes(value)) {
+      game.style.display = "flex"; // change to block if needed
+    } else {
+      game.style.display = "none";
+    }
+  });
+});
+</script>
+
+<footer>© Max Huizer 2026</footer>
+
 </body>
 </html>
