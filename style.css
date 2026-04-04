@@ -167,6 +167,8 @@ grid-column: span 1;
 .newstext p{
 font-size: 30px;
 margin-bottom:5px;
+margin-top:0px;
+color:#f2c026;
 }
 
 
