@@ -25,40 +25,16 @@
     </ul>
   </div>
 
-  <!-- SEARCH BAR -->
+  <!-- 🔍 SEARCH BAR -->
   <div class="searchbar">
     <input type="text" id="searchInput" placeholder="Search teams...">
-    <button>🔍</button>
+    <button id="searchBtn">🔍</button>
   </div>
-</div>
-
-<!-- SLIDES -->
-<div class="home-container">
-  <div class="mySlides fade"><img src="images/HOF.png" style="width:100%"></div>
-  <div class="mySlides fade"><img src="images/expansion32.png" style="width:100%"></div>
-  <div class="mySlides fade"><img src="images/mvp.png" style="width:100%"></div>
-  <div class="mySlides fade"><img src="images/Rookie.png" style="width:100%"></div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-</div>
-
-<!-- TRENDING -->
-<div class="trending">
-  <div class="trendingtitle">Trending 🔥</div>
-  <div class="morenews"><a href="News.html">More News ❯</a></div>
-
-  <div class="newsthumbnail"><img src="images/Kon.png"></div>
-  <div class="newsthumbnail"><img src="images/Luka injury.png"></div>
-  <div class="newsthumbnail"><img src="images/Jokic.png"></div>
-  <div class="newsthumbnail"><img src="images/Kawhi.png"></div>
-  <div class="newsthumbnail"><img src="images/Steph.png"></div>
 </div>
 
 <!-- UPCOMING GAMES -->
 <div class="upcoming">
   <div class="upcomingtitle">Upcoming 🗓️</div>
-  <div class="ygames"><a href="Results.html">Yesterday's Games ❯</a></div>
 
   <div class="game" data-team="bucks celtics">
     <img src="images/nba logos/Milwaukee_Bucks.png"> 12:00pm
@@ -86,80 +62,38 @@
   </div>
 </div>
 
-<!-- HIGHLIGHTS -->
-<div class="highlightscontainer">
-  <div class="htitle">Must watch</div>
-  <div class="morehighlights"><a href="highlights.html">See more ❯</a></div>
-
-  <div class="highlight"><img src="images/hali.png"></div>
-  <div class="highlight"><img src="images/steph3s.png"></div>
-  <div class="highlight"><img src="images/dunk contest.png"></div>
-</div>
-
-<!-- SLIDER SCRIPT -->
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
-
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  slides[slideIndex - 1].style.display = "block";
-}
-</script>
-
-<!-- HIGHLIGHT AUTO SLIDE -->
-<script>
-let highlightIndex = 0;
-showHighlightSlides();
-
-function showHighlightSlides() {
-  let slides = document.getElementsByClassName("highlight");
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  highlightIndex++;
-  if (highlightIndex > slides.length) {
-    highlightIndex = 1;
-  }
-
-  slides[highlightIndex - 1].style.display = "block";
-
-  setTimeout(showHighlightSlides, 3000);
-}
-</script>
-
 <!-- 🔍 SEARCH SCRIPT -->
 <script>
 const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
 const games = document.querySelectorAll(".game");
 
-searchInput.addEventListener("keyup", function () {
-  let value = this.value.toLowerCase();
+function searchTeams() {
+  let value = searchInput.value.toLowerCase();
 
   games.forEach(game => {
     let teams = game.getAttribute("data-team");
 
     if (teams.includes(value)) {
-      game.style.display = "flex"; // change to block if needed
+      game.style.display = "flex"; // change to "block" if needed
     } else {
       game.style.display = "none";
     }
   });
+}
+
+// Click button
+searchBtn.addEventListener("click", searchTeams);
+
+// Press Enter
+searchInput.addEventListener("keypress", function(e) {
+  if (e.key === "Enter") {
+    searchTeams();
+  }
 });
+
+// (optional) live typing
+searchInput.addEventListener("keyup", searchTeams);
 </script>
 
 <footer>© Max Huizer 2026</footer>
