@@ -2,6 +2,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Bebas Neue', sans-serif;
+  font-size:100px;
 }
 
 
@@ -165,6 +166,7 @@ grid-column: span 1;
 
 .newstext p{
 font-size: 30px;
+margin:5px;
 }
 
 
