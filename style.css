@@ -154,48 +154,19 @@ grid-column: span 1;
 grid-column: span 1;
 }
 
-.KD {
-  grid-column: span 1;
-}
-
-.KD img {
+.newsimage img {
   width: 300px;
   height: auto;
 }
 
-.KDtext p{
-font-size: 30px;
-}
-
-.LBJ img {
-  width: 300px;
-  height: auto;
-}
-
-.LBJ {
+.newsimage {
 grid-column: span 1;
 }
 
-.LBJtext p{
+.newstext p{
 font-size: 30px;
 }
 
-.yang img {
-  width: 300px;
-  height: auto;
-}
-
-.yang {
-grid-column: span 1;
-}
-
-.yangtext {
-  grid-column:span 1;
-}
-
-.yangtext p{
-font-size: 30px;
-}
 
 .slideshow-container {
     width: auto;
