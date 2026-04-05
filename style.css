@@ -564,3 +564,7 @@ color:#f2c026;
 .playertitle {
   grid-column: span 5;
 }
+
+.playertitle p {
+  font-size: 40px;
+}
