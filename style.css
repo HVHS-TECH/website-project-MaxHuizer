@@ -550,6 +550,7 @@ color:#f2c026;
   font-size: 30px;
   text-align: center;
   margin:15px;
+  margin-top:3px;
 }
 
 .playervideo {
@@ -566,5 +567,5 @@ color:#f2c026;
 }
 
 .playertitle p {
-  font-size: 40px;
+  font-size: 30px;
 }
