@@ -241,12 +241,17 @@ cursor: pointer;
 
 .gamevideo {
   grid-column:span 1;
+  padding:5px;
+}
+
+.gamevideo:hover {
+background-color:white;
+padding:5px;
 }
 
 .videos img {
   height:auto;
   width:100%;
-  margin-bottom:10px;
 }
 
 .Highlight_title p {
@@ -261,7 +266,7 @@ cursor: pointer;
 .videos div{
   font-size: 30px;
   text-align: left;
-  padding:10px;
+  margin:10px;
 }
 
 .videos video{
@@ -535,19 +540,25 @@ color:#f2c026;
 .playerhighlights {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  margin-right:20px;
-  margin-left:20px;
+  margin-right:10px;
+  margin-left:10px;
 }
 
 .playerhighlights div {
   font-size: 30px;
   text-align: center;
-  margin:15px;
+  margin:5px;
   margin-top:3px;
 }
 
 .playervideo {
   grid-column: span 1;
+  padding:5px;
+}
+
+.playervideo:hover {
+  background-color:white;
+  padding:5px;
 }
 
 .playervideo img {
