@@ -540,13 +540,18 @@ color:#f2c026;
 }
 
 .playerhighlights {
-  display:grid;
+  display: grid;
   grid-template-columns: auto auto auto auto;
   background-color: grey;
+  gap: 10px; /* move it HERE */
 }
 
 .playerhighlights div {
   font-size: 30px;
   text-align: center;
-  margin:10px;
+  /* remove margin */
+}
+
+.playervideo {
+  grid-column: span 1;
 }
