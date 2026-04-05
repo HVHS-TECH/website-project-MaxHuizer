@@ -542,13 +542,14 @@ color:#f2c026;
 .playerhighlights {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  gap: 10px;
-  margin:10px;
+  margin-right:20px;
+  margin-left:20px;
 }
 
 .playerhighlights div {
   font-size: 30px;
   text-align: center;
+  margin:15px;
 }
 
 .playervideo {
@@ -556,6 +557,10 @@ color:#f2c026;
 }
 
 .playervideo img {
-  height:100%;
-  width:auto;
+  width:100%;
+  height:auto;
+}
+
+.playertitle {
+  grid-column: span 5;
 }
