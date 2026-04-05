@@ -239,21 +239,14 @@ cursor: pointer;
   
 }
 
-.OKCVSORL {
-grid-column: span 1;
-}
-
-.lukadoncic {
-grid-column: span 1;
-}
-
-.WembyGW {
-grid-column: span 1;
+.gamevideo {
+  grid-column:span 1;
 }
 
 .videos img {
   height:auto;
-  width:90%;
+  width:100%;
+  margin-bottom:10px;
 }
 
 .Highlight_title p {
@@ -262,7 +255,7 @@ grid-column: span 1;
 
 .videos{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .videos div{
