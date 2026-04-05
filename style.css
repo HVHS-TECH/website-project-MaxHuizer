@@ -541,17 +541,21 @@ color:#f2c026;
 
 .playerhighlights {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: grey;
+  grid-template-columns: auto auto auto auto auto;
   gap: 10px;
+  margin:10px;
 }
 
 .playerhighlights div {
   font-size: 30px;
   text-align: center;
-  background-color:black;
 }
 
 .playervideo {
   grid-column: span 1;
+}
+
+.playervideo img {
+  height:100%;
+  width:auto;
 }
