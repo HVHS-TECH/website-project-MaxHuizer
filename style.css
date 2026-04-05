@@ -543,13 +543,13 @@ color:#f2c026;
   display: grid;
   grid-template-columns: auto auto auto auto;
   background-color: grey;
-  gap: 10px; /* move it HERE */
+  gap: 10px;
 }
 
 .playerhighlights div {
   font-size: 30px;
   text-align: center;
-  /* remove margin */
+  background-color:black;
 }
 
 .playervideo {
