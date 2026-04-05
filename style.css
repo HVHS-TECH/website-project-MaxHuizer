@@ -539,3 +539,14 @@ color:#f2c026;
   background-color: #111111;
 }
 
+.playerhighlights {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: grey;
+}
+
+.playerhighlights div {
+  font-size: 30px;
+  text-align: center;
+  margin:10px;
+}
