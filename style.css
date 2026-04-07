@@ -217,8 +217,18 @@ color:#f2c026;
     user-select: none;
 }
 
+.prev:hover{
+cursor:pointer;
+color:#f2c026;
+}
+
+.next:hover{
+cursor:pointer;
+color:#f2c026;
+}
+
 .next {
-cursor: pointer;
+    cursor: pointer;
     font-size: 30px;
     user-select: none;
 }
