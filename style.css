@@ -608,17 +608,6 @@ color:#f2c026;
 }
 
 .tabcontent img {
-  width:auto;
-  height:auto;
-}
-
-.playoffs {
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-}
-
-.playoffs img {
   width:100%;
   height:auto;
 }
