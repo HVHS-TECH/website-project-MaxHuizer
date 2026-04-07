@@ -573,3 +573,41 @@ color:#f2c026;
 .playertitle p {
   font-size: 30px;
 }
+
+.tab {
+  overflow: hidden;
+  background-color: black;
+  margin-top:10px;
+}
+
+.tab button {
+  font-family: 'Bebas Neue', sans-serif;
+  float: left;
+  border: none;
+  outline: white;
+  background-color:black;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 30px;
+  color:white;
+}
+
+.tab button:hover {
+  background-color: #383838;
+}
+
+.tab button.active {
+  color:#f2c026;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tabcontent img {
+  width:100%;
+  height:auto;
+}
