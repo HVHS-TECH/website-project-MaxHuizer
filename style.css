@@ -608,6 +608,6 @@ color:#f2c026;
 }
 
 .tabcontent img {
-  width:auto;
+  max-width:100%;
   height:auto;
 }
