@@ -251,12 +251,12 @@ color:#f2c026;
 
 .gamevideo {
   grid-column:span 1;
-  padding:5px;
+  padding:3px;
 }
 
 .gamevideo:hover {
 background-color:white;
-padding:5px;
+padding:3px;
 }
 
 .videos img {
@@ -563,12 +563,12 @@ color:#f2c026;
 
 .playervideo {
   grid-column: span 1;
-  padding:5px;
+  padding:3px;
 }
 
 .playervideo:hover {
   background-color:white;
-  padding:5px;
+  padding:3px;
 }
 
 .playervideo img {
