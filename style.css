@@ -471,7 +471,7 @@ color:#f2c026;
 
 .highlightscontainer {
   display:grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   margin:50px;
 }
 
@@ -482,16 +482,26 @@ color:#f2c026;
 
 .highlightscontainer img{
   height:auto;
-  width:100%
+  width:100%;
 }
 
 .highlight {
- grid-column: span 2;
+ grid-column: span 3;
+}
+
+.homepagevideo {
+  grid-column: span 1;
+  margin:10px;
+}
+
+.homepagevideo img {
+  height:auto;
+  width:100%;
 }
 
 
 .htitle {
-  grid-column: span 1;
+  grid-column: span 2;
   text-align:left;
   font-size:30px;
 }
