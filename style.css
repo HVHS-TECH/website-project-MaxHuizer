@@ -188,10 +188,6 @@ color:#f2c026;
     gap: 10px;
 }
 
-.Playoffs {
-  grid-column-span: 3;
-}
-
 .game {
     display: grid;
     grid-template-columns: auto auto auto;
