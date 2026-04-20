@@ -188,6 +188,14 @@ color:#f2c026;
     gap: 10px;
 }
 
+.Playoffs {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    background-color:#383838;
+    padding:1px;
+}
+
 .game {
     display: grid;
     grid-template-columns: auto auto auto;
