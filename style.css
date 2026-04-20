@@ -195,6 +195,17 @@ color:#f2c026;
 }
 
 .Playoffs img {
+width:15%;
+height:auto;
+}
+
+.Playin {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.Playin img {
 width:30%;
 height:auto;
 }
