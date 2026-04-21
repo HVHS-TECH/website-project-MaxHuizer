@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max's basketball website</title>
+    <link rel="icon" type="image/png" href="images/website logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="navbar">
+  <div class="Logo1">
+  <img src="images/website logo.png" alt="Website Logo">
+</div>
+
+  <div class="navbarlinks">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+
+  <li class="dropdown">
+  <a href="#" class="dropbtn">News</a>
+  <div class="dropdown-content">
+  <a href="News.html">Breaking News</a>
+  <a href="trades.html">Trades</a>
+  </div>
+  </li>
+
+  <li class="dropdown">
+  <a href="#" class="dropbtn">Results</a>
+  <div class="dropdown-content">
+  <a href="Results.html">Final Scores</a>
+  <a href="standings.html">Standings</a>
+  </div>
+ </li>
+
+ <li class="dropdown">
+  <a href="#" class="dropbtn">Watch</a>
+  <div class="dropdown-content">
+  <a href="highlights.html">Game highlights</a>
+  <a href="player_highlights.html">Player Highlights</a>
+  </div>
+  </li>
+  </ul>
+  </div>
+
+  <div class="nbalogo">
+    <img src="images/NBA.png" alt="NBA Logo">
+  </div>
+</div>
+
+<div class="home-container">
+
+<div class="mySlides fade">
+  <img src="images/Rookie.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/wemby home slide.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/HOF.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/expansion32.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/mvp.png" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+  </div>
+
+</div>
+
+<div class="trending">
+    <div class="trendingtitle">Trending 🔥</div>
+    <div class="morenews"> <a href="News.html">More News ❯</a></div>
+    
+    <div class="newsthumbnail">
+        <img src="images/Detroit 1 seed.png" alt="Detroit Pistons 1 seed">
+        <p>31st March 2026</p>
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/Luka injury.png" alt="Luka Doncic injury">
+        <p>2nd April 2026</p>
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/DeMar I say it the less I like it.png" alt="DeMar DeRozan">
+        <p>5th April 2026</p>
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/cooperflagg51.png" alt="Cooper Flagg">
+        <p>4th April 2026</p>
+    </div>
+    <div class="newsthumbnail">
+        <img src="images/Shaq dunkman 2.png" alt="Dunkman">
+        <p> 6th April 2026</p>
+    </div>
+</div>
+
+<div class="upcoming">
+<div class="upcomingtitle">Upcoming 🗓️</div>
+<div class="ygames"> <a href="Results.html">Previous Games ❯</a></div>
+<div class="game"><img src="images/nba logos/Oklahoma_City_Thunder.svg" alt="Oklahoma City Thunder"> 12:00pm<img src="images/nba logos/Phoenix_Suns_logo.svg" alt="Phoenix Suns"></div>
+    <div class="game"><img src="images/nba logos/Cleveland_Cavaliers.png" alt="Cleveland Cavaliers"> 12:30pm <img src="images/nba logos/Toronto_Raptors.png" alt="Toronto Raptors"></div>
+    <div class="game"><img src="images/nba logos/Denver_Nuggets.png" alt="Denver Nuggets"> 3:00pm <img src="images/nba logos/Minnesota_Timberwolves_logo.png" alt="Minnesota_Timberwolves_logo"></div>
+    <div class="game"><img src="images/nba logos/Los_Angeles_Lakers_logo.png" alt="Los Angeles Lakers"> 3:00pm <img src="images/nba logos/Houston_Rockets.png" alt="Houston Rockets"></div>
+    <div class="game"><img src="images/nba logos/detroit pistons.png" alt="Detroit Pistons"> 4:30pm<img src="images/nba logos/Orlando_Magic.png" alt="Orlando Magic"></div>
+</div>
+
+<div class="highlightscontainer">
+  <div class="htitle">Must watch</div>
+<div class="morehighlights"> <a href="highlights.html">See more ❯</a></div>
+
+<div class="highlight">
+  <img src="images/hali.png" alt="Tyrese Haliburton insane Playoffs moments">
+</div>
+
+<div class="highlight">
+  <img src="images/steph3s.png" alt="Stephen Curry best threes">
+</div>
+
+<div class="highlight">
+  <img src="images/dunk contest.png" alt="2026 NBA Dunk Contest">
+</div>
+
+
+</div>
+    
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script>
+let highlightIndex = 0;
+showHighlightSlides();
+
+function showHighlightSlides() {
+  let i;
+  let slides = document.getElementsByClassName("highlight");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  highlightIndex++;
+  if (highlightIndex > slides.length) {
+    highlightIndex = 1;
+  }
+
+  slides[highlightIndex - 1].style.display = "block";  
+
+  setTimeout(showHighlightSlides, 3000);
+}
+</script>
+
+  <footer> 
+    <h>© 2026 Max Huizer</h>
+    <p>
+    All rights reserved. All images, graphics, videos, and logos featured on this website were created 
+    or edited by me, Max Huizer, or sourced from public platforms such as YouTube, Google, and official
+    NBA materials. All rights to original content belong to their respective owners. This site is a 
+    fan-made project and is not affiliated with or endorsed by the NBA or any related organizations.
+     </p>
+</footer>
+  
+</body>
+</html>
