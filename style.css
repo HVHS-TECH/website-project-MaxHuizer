@@ -662,3 +662,11 @@ color:#f2c026;
   max-width:100%;
   height:auto;
 }
+
+.sources {
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sourceimage {
+
+}
