@@ -664,7 +664,7 @@ color:#f2c026;
 }
 
 .sources {
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns:1fr 2fr;
   margin-top:10px;
 }
 
@@ -673,7 +673,19 @@ color:#f2c026;
 }
 
 .sourceimage img {
-grid-row: span 1;
 height:auto;
 width:20%;
+}
+
+.sourceimage p {
+  align-items:left;
+}
+
+.sourceimage {
+  text-decoration:underline;
+  grid-columns:span 1;
+}
+
+.sourceimage:hover{
+  color:#f2c026;
 }
