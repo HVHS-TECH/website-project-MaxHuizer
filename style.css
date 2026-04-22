@@ -678,8 +678,8 @@ width:20%;
 }
 
 .sourceimage {
-  text-decoration:underline;
   grid-columns:span 1;
+   text-decoration:underline;
 }
 
 .sourceimage:hover{
