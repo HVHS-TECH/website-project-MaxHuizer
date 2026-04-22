@@ -677,10 +677,6 @@ height:auto;
 width:20%;
 }
 
-.sourceimage p {
-  align-items:left;
-}
-
 .sourceimage {
   text-decoration:underline;
   grid-columns:span 1;
