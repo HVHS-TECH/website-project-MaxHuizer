@@ -665,7 +665,7 @@ color:#f2c026;
 
 .sources {
   grid-template-rows: 1fr 1fr 1fr;
-  margin:10px;
+  margin-top:10px;
 }
 
 .sources div {
