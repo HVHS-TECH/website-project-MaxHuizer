@@ -665,8 +665,15 @@ color:#f2c026;
 
 .sources {
   grid-template-rows: 1fr 1fr 1fr;
+  margin:10px;
 }
 
-.sourceimage {
+.sources div {
+  margin:10px;
+}
 
+.sourceimage img {
+grid-row: span 1;
+height:auto;
+width:20%;
 }
